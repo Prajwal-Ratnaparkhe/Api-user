@@ -28,6 +28,61 @@
   color: #61dafb;
 }
 
+
+.hdate{
+  color: rgba(255, 255, 255, 0.5);
+
+}
+
+.list-group-item{
+  background-color:  rgba(255, 255, 255, 0.5);
+ 
+  
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.list-group-item:first-child {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.background {
+  background-image: 
+  url(
+"https://wallpaperbat.com/img/349985-components-of-professional-web-design.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height:100vh;
+
+}
+
+
+/*****************************************  Footer ****************************************/
+
+footer {
+  padding: 2 rem 0;
+  background-color: #182334;
+  color: #fff;
+  margin-top: auto;
+  position: relative;
+
+  
+}
+
+
+
+
+
+
+footer.h2, h2 {
+    font-size: 1.5rem;
+} 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +90,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mt-5 {
+  margin-top: -1rem!important;
+}
+
+@media (max-width: 960px) and (min-width: 501px) {
+  .press li { width: 50%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
+@media (max-width: 500px) {
+  .press li { width: 100%; } /* On small screens, show one logo per row */
 }
