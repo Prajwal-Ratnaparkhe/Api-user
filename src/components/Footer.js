@@ -13,7 +13,7 @@ export const Footer = () => {
             <hr />
 
             <p className="main-hero-para text-center w-100">
-              Copyright @ Prajwal Ratnaparkhe 2022. All rights reserved .
+              Copyright @ JMV Systems 2022. All rights reserved .
             </p>
 
             <hr />
